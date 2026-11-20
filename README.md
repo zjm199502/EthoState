@@ -4,7 +4,7 @@
 
 用于 MED 条件恐惧实验的 Windows 桌面分析工具。从每只鼠的 motion index 序列估计低运动和高运动状态，查看逐鼠轨迹，并比较两组低运动占比。
 
-**[下载 Windows x64 安装程序](https://github.com/zjm199502/EthoState/releases/latest/download/EthoState-1.0.1-Windows-x64-Setup.exe)** · [正式版本](https://github.com/zjm199502/EthoState/releases)
+**[下载 Windows x64 安装程序](https://github.com/zjm199502/EthoState/releases/latest/download/EthoState-1.0.2-Windows-x64-Setup.exe)** · [正式版本](https://github.com/zjm199502/EthoState/releases)
 
 ### 开始分析
 

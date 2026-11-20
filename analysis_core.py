@@ -117,7 +117,7 @@ def analyze(path=None):
         probability[start:end, mouse] = posterior[offset:stop]
         offset = stop
     history = list(model.monitor_.history)
-    info = dict(version="1.0.1", source=Path(path).name if path else "Synthetic demo",
+    info = dict(version="1.0.2", source=Path(path).name if path else "Synthetic demo",
                 sha256=hashlib.sha256(Path(path).read_bytes()).hexdigest() if path else None,
                 sheet=sheet, transformation="log1p", state_order=["low", "high"],
                 mean_log1p=model.means_.ravel()[order].tolist(),

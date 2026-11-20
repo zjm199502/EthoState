@@ -7,7 +7,7 @@ import traceback
 import webbrowser
 from pathlib import Path
 
-VERSION = "1.0.1"
+VERSION = "1.0.2"
 RELEASES = "https://github.com/zjm199502/EthoState/releases/latest"
 
 

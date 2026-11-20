@@ -1,7 +1,7 @@
 [Setup]
 AppId={{79209F20-7EA6-47F8-928A-FDFE1CC68FB3}
 AppName=EthoState
-AppVersion=1.0.1
+AppVersion=1.0.2
 AppPublisher=EthoState contributors
 AppPublisherURL=https://github.com/zjm199502/EthoState
 DefaultDirName={localappdata}\Programs\EthoState
@@ -10,7 +10,7 @@ ArchitecturesAllowed=x64compatible
 ArchitecturesInstallIn64BitMode=x64compatible
 DisableProgramGroupPage=yes
 OutputDir=release
-OutputBaseFilename=EthoState-1.0.1-Windows-x64-Setup
+OutputBaseFilename=EthoState-1.0.2-Windows-x64-Setup
 Compression=lzma2/fast
 SolidCompression=yes
 SetupIconFile=ethostate.ico

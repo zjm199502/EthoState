@@ -7,7 +7,7 @@ import traceback
 import webbrowser
 from pathlib import Path
 
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 RELEASES = "https://github.com/zjm199502/EthoState/releases/latest"
 
 
@@ -40,6 +40,10 @@ class Workspace:
         style.map("Action.TButton", background=[("active", "#005e56")])
         brand = tk.Frame(root, bg="#173d39", padx=24, pady=12)
         brand.pack(fill="x")
+        from PIL import Image, ImageTk
+        with Image.open(Path(__file__).with_name("ethostate.ico")) as icon:
+            self.brand_logo = ImageTk.PhotoImage(icon.ico.getimage((48, 48)), master=root)
+        tk.Label(brand, image=self.brand_logo, bg="#173d39").pack(side="left", padx=(0, 10))
         tk.Label(brand, text="EthoState", font=("Segoe UI Semibold",22), fg="white", bg="#173d39").pack(side="left")
         tk.Label(brand, text="条件恐惧  /  Motion Index", fg="#c2dad2", bg="#173d39",
                  font=("Microsoft YaHei UI",11)).pack(side="left", padx=24)

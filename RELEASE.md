@@ -1,10 +1,5 @@
-[下载 Windows x64 安装程序](https://github.com/zjm199502/EthoState/releases/download/v1.0.0/EthoState-1.0.0-Windows-x64-Setup.exe)
+[下载 EthoState 1.0.1 Windows x64 安装程序](https://github.com/zjm199502/EthoState/releases/download/v1.0.1/EthoState-1.0.1-Windows-x64-Setup.exe)
 
-首次正式发布。安装后从开始菜单启动，点击「打开数据」读取每列一只鼠的 XLSX 或 CSV 文件，或用「合成示例」体验分析。完整安装程序含 Python 运行时和分析依赖。
+EthoState 新标识将小鼠侧影与运动指数轨迹结合。软件主界面、窗口图标、开始菜单和安装程序均使用同一标识。
 
-- 共享双状态高斯 HMM，保留小鼠边界与缺失区间。
-- 分组状态热图、鼠级低运动占比、单鼠运动轨迹、状态后验概率与逐鼠汇总。
-- 一键导出 PNG、SVG、逐采样点及汇总 CSV、模型参数和分析设置。
-- 默认按列顺序分组，奇数列时对照组取整向下，分界和采样间隔均可调整。
-
-低运动状态的行为解释请结合实验视频校准。后续更新入口位于软件右下角。
+使用 1.0.0 的用户可以关闭软件，双击新版安装程序原位升级。

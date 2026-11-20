@@ -1,0 +1,9 @@
+.venv/
+build/
+dist/
+release/
+qa/
+__pycache__/
+*.pyc
+*.spec
+
